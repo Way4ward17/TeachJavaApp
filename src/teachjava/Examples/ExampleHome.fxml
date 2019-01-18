@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="390.0" prefWidth="902.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="teachjava.Examples.ExampleHomeController">
+   <children>
+      <VBox fx:id="vbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="390.0" prefWidth="56.0" style="-fx-background-color: limegreen;">
+         <children>
+            <JFXButton fx:id="e1" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: limegreen;" text="Ex. 1" textFill="#f8f3f3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="e2" layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="56.0" style="-fx-background-color: limegreen;" text="Ex. 2" textFill="#f8f3f3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="e3" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="35.0" prefHeight="25.0" prefWidth="56.0" style="-fx-background-color: limegreen;" text="Ex. 3" textFill="#f8f3f3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="e4" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="60.0" prefHeight="25.0" prefWidth="58.0" style="-fx-background-color: limegreen;" text="Ex. 4" textFill="#f8f3f3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="e5" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="85.0" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: limegreen;" text="Ex. 5" textFill="#f8f3f3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="e6" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="110.0" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: limegreen;" text="Ex. 6" textFill="#f8f3f3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="e7" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="135.0" prefHeight="25.0" prefWidth="56.0" style="-fx-background-color: limegreen;" text="Ex. 7" textFill="#f8f3f3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="e8" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="160.0" prefHeight="25.0" prefWidth="54.0" style="-fx-background-color: limegreen;" text="Ex. 8" textFill="#f8f3f3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="e9" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="185.0" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: limegreen;" text="Ex. 9" textFill="#f8f3f3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="e10" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="210.0" prefHeight="25.0" prefWidth="53.0" style="-fx-background-color: limegreen;" text="Ex. 10" textFill="#f8f3f3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="e11" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="235.0" prefHeight="25.0" prefWidth="53.0" style="-fx-background-color: limegreen;" text="Ex. 11" textFill="#f8f3f3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="e12" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="260.0" prefHeight="25.0" prefWidth="55.0" style="-fx-background-color: limegreen;" text="Ex. 12" textFill="#f8f3f3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="e13" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="285.0" prefHeight="25.0" prefWidth="53.0" style="-fx-background-color: limegreen;" text="Ex. 13" textFill="#f8f3f3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="e14" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="310.0" prefHeight="25.0" prefWidth="57.0" style="-fx-background-color: limegreen;" text="Ex. 14" textFill="#f8f3f3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="e15" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="335.0" prefHeight="25.0" prefWidth="57.0" style="-fx-background-color: limegreen;" text="Ex. 15" textFill="#f8f3f3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </VBox>
+      <ScrollPane layoutX="56.0" layoutY="31.0" prefHeight="359.0" prefWidth="622.0" style="-fx-background-color: WHITE;">
+         <content>
+            <TextArea fx:id="imageview" editable="false" prefHeight="1000.0" prefWidth="684.0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </TextArea>
+         </content>
+      </ScrollPane>
+      <TextArea fx:id="status" layoutX="678.0" layoutY="46.0" prefHeight="344.0" prefWidth="224.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </TextArea>
+      <JFXButton id="output" fx:id="output" buttonType="RAISED" layoutX="792.0" layoutY="4.0" prefHeight="35.0" prefWidth="96.0" ripplerFill="#121411" style="-fx-background-color: GREEN; -fx-background-radius: 5em; -fx-border-radius: 5em;" stylesheets="@../css.css" text="VIEW OUTPUT" textFill="#f5ebeb">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </JFXButton>
+      <AnchorPane fx:id="outputpane" layoutX="94.0" prefHeight="367.0" prefWidth="646.0" style="-fx-background-color: green;">
+         <children>
+            <JFXButton fx:id="closeoutput" layoutX="611.0" layoutY="1.0" prefHeight="25.0" prefWidth="34.0" text="x" textFill="#f2e9e9">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </JFXButton>
+            <ScrollPane layoutY="47.0" prefHeight="320.0" prefWidth="652.0">
+               <content>
+                  <ImageView fx:id="outputimage" fitHeight="326.0" fitWidth="443.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/Screenshot_2017-11-02-19-07-47.png" />
+                     </image>
+                  </ImageView>
+               </content>
+            </ScrollPane>
+            <Text fill="#f2dddd" layoutX="75.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PROGRAM OUTPUTS">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Text>
+            <Text fill="#f2dddd" layoutX="434.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TheWay4wardAcademy" wrappingWidth="166.162109375">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <HBox fx:id="popUpPane" layoutX="56.0" layoutY="-126.0" prefHeight="25.0" prefWidth="338.0">
+         <children>
+            <JFXButton fx:id="e16" style="-fx-background-color: limegreen;" text="EX 16" textFill="#f8efef">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="e17" layoutX="10.0" layoutY="10.0" style="-fx-background-color: limegreen;" text="Ex 17" textFill="#f8efef">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="e18" layoutX="62.0" layoutY="10.0" style="-fx-background-color: limegreen;" text="Ex 18" textFill="#f8efef">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="e19" layoutX="114.0" layoutY="10.0" style="-fx-background-color: limegreen;" text="Ex 19" textFill="#f8efef">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="e20" layoutX="166.0" layoutY="10.0" style="-fx-background-color: limegreen;" text="Ex 20" textFill="#f8efef">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="218.0" layoutY="10.0" style="-fx-background-color: limegreen;" text="Ex 21" textFill="#f8efef">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </HBox>
+      <ImageView fitHeight="25.0" fitWidth="37.0" layoutX="61.0" layoutY="3.0" onMouseClicked="#openDialog" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/icons8_View_More_50px.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

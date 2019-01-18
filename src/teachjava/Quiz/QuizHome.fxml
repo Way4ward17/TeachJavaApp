@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="390.0" prefWidth="902.0" style="-fx-background-color: #a72b2b;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="teachjava.Quiz.QuizHomeController">
+   <children>
+      <Pane layoutX="516.0" layoutY="17.0" prefHeight="294.0" prefWidth="382.0">
+         <children>
+            <TextArea fx:id="dialog" editable="false" layoutX="-1.0" layoutY="54.0" prefHeight="242.0" prefWidth="382.0" style="-fx-background-color: grey;" stylesheets="@../css.css">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="content" />
+                  <String fx:value="text" />
+               </styleClass>
+            </TextArea>
+            <Label fx:id="status" layoutX="61.0" layoutY="24.0" onKeyTyped="#labelkeypressed" prefHeight="25.0" prefWidth="180.0">
+               <font>
+                  <Font name="System Bold Italic" size="10.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="38.0" fitWidth="40.0" layoutX="13.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8_User_Typing_Using_Typewriter_48px_1.png" />
+               </image>
+            </ImageView>
+            <Text fill="#e8dddd" layoutX="85.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chat with way4ward">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <TextField fx:id="input" layoutX="516.0" layoutY="338.0" onKeyPressed="#keyPressed" onKeyReleased="#KeyReleased" onKeyTyped="#labelkeypressed" prefHeight="38.0" prefWidth="324.0" promptText="Type a message" />
+      <JFXButton ellipsisString="" layoutX="846.0" layoutY="341.0" onAction="#send" prefHeight="33.0" prefWidth="38.0" text="." textFill="#a72b2b">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8_Paper_Plane_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

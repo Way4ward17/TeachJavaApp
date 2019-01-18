@@ -1,0 +1,119 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package pastquestions;
+import java.util.*;
+/**
+ *
+ * @author H P
+ */
+public class Contribution {
+    public static void main(String[] args) {
+        Scanner enter = new Scanner(System.in);
+        int[] con1 = new int[5], numth = new int[5];
+        int[] con2 = new int[5];
+        int day, c2=0, c3=0, c4=0, c5=0;
+        String [] names = new String[5];
+        Random rand = new Random();
+        System.out.println("Enter Customers Name");
+        for (int i = 0; i < names.length; i++) {
+            System.out.println("Enter name for customer "+(i+1));
+            names[i] = enter.next();
+            
+        }
+        
+        System.out.println("COLLECTION OF MONEY FOR FIRST 5 YEARS\n");
+            //this session compute for CUSTOMER 1 WITH MONTH OF COLLECTION
+            day = rand.nextInt(5) + 1;
+            con1[0] = day;
+            numth[0] = 0;
+            
+            //customer 2
+            day = rand.nextInt(5) + 1;
+            if (day == con1[0]) {
+                int cus1 = day;
+                while (cus1 == con1[0]) {                    
+                    System.out.println("Number Picked, "+names[1]+" Throw again");
+                    cus1 = rand.nextInt(5) + 1;
+                    c2++;
+                    numth[1] = c2;
+                    
+                }
+                con1[1] = cus1;
+            } else {
+                con1[1] = day;
+            }
+            
+            //CUSTOMER 3            
+            day = rand.nextInt(5) + 1;
+            if ((day == con1[0]) || (day == con1[1])) {
+                int cus2 = day;
+                while ((cus2 == con1[0])||(cus2 == con1[1])) {                    
+                    System.out.println("Number Picked, "+names[2]+" Throw again");
+                    cus2 = rand.nextInt(5) + 1;
+                    c3++;
+                    numth[2]=c3;
+                }
+                con1[2] = cus2;
+            } else {
+                con1[2] = day;
+            }            
+                     
+            //CUSTOMER 4
+            day = rand.nextInt(5) + 1;
+            if ((day == con1[0]) || (day == con1[1]) || (day == con1[2])) {
+                int cus3 = day;
+                while ((cus3 == con1[0]) || (cus3 == con1[1]) || (cus3 == con1[2])) {                    
+                   System.out.println("Number Picked, "+names[3]+" Throw again");
+                    cus3 = rand.nextInt(5) + 1;
+                    c4++;
+                    numth[3] = c4;
+                }
+                con1[3] = cus3;
+            } else {
+                con1[3] = day;
+            }            
+            
+            //CUSTOMER 5            
+            day = rand.nextInt(5) + 1;
+            if ((day == con1[0]) || (day == con1[1]) || (day == con1[2]) || (day == con1[3])) {
+                int cus4 = day;
+                while ((cus4 == con1[0]) || (cus4 == con1[1]) || (cus4 == con1[2])||(cus4 == con1[3])) {                    
+                    System.out.println("Number Picked, "+names[4]+" Throw again");
+                    cus4 = rand.nextInt(5) + 1;
+                    c5++;
+                    numth[4] = c5;
+                }
+                con1[4] = cus4;
+            } else {
+                con1[4] = day;
+            }
+            
+            for (int i = 0; i < con1.length; i++) {
+                System.out.println("CUSTOMER " + (i+1)+" - "+ names[i]);
+                System.out.println("------------");
+                if (con1[i] == 1) {
+                    System.out.println("NUMBER PICKED IS: "+ con1[i]);
+                    System.out.println("MONTH OF COLLECTION IS: JANUARY");
+                } else if(con1[i] == 2) {
+                    System.out.println("NUMBER PICKED IS: "+ con1[i]);
+                    System.out.println("MONTH OF COLLECTION IS: FEBRUARY");
+                }else if(con1[i] == 3) {
+                    System.out.println("NUMBER PICKED IS: "+ con1[i]);
+                    System.out.println("MONTH OF COLLECTION IS: MARCH");
+                }else if(con1[i] == 4) {
+                    System.out.println("NUMBER PICKED IS: "+ con1[i]);
+                    System.out.println("MONTH OF COLLECTION IS: APRIL");
+                }else{
+                    System.out.println("NUMBER PICKED IS: "+ con1[i]);
+                    System.out.println("MONTH OF COLLECTION IS: MAY");
+            }
+                
+                    System.out.println("Number of Times thrown "+numth[i]);
+        }                                  
+    }
+    
+}

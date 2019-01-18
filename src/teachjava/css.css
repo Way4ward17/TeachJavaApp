@@ -1,0 +1,11 @@
+#output:hover{
+    -fx-background-color: blue;
+}
+.text-area .content{
+    -fx-background-color: blanchedalmond;
+    
+}
+.text-area:focus{
+   -fx-background-color: red;
+   -fx-text-fill: green;
+}

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pana" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="1006.0" style="-fx-background-color: GREY;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="teachjava.HomeController">
+   <children>
+      <JFXButton fx:id="tutorial" focusTraversable="false" layoutX="129.0" layoutY="486.0" onAction="#tutorial" prefHeight="25.0" prefWidth="216.0" text="TUTORIAL">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8_Classroom_48px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="video" focusTraversable="false" layoutX="395.0" layoutY="486.0" onAction="#video" prefHeight="25.0" prefWidth="216.0" text="VIDEOS">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="29.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8_Video_Call_48px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="note" focusTraversable="false" layoutX="673.0" layoutY="486.0" onAction="#note" prefHeight="25.0" prefWidth="216.0" text="MAKE A NOTE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="27.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8_Note_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <AnchorPane fx:id="pane" layoutX="51.0" layoutY="92.0" prefHeight="390.0" prefWidth="924.0" style="-fx-background-color: WHITE;">
+         <children>
+            <Text layoutX="214.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome To WAY   WARD">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+            </Text>
+            <Text layoutX="494.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+               <font>
+                  <Font size="44.0" />
+               </font>
+            </Text>
+            <Text layoutX="547.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JAVA CLASS">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="65.0" fitWidth="75.0" layoutX="5.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Screenshot_2017-11-02-19-07-47.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="93.0" layoutY="302.0" prefHeight="81.0" prefWidth="92.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="23.0" layoutX="20.0" layoutY="58.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="24.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="23.0" layoutX="50.0" layoutY="58.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="24.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="23.0" layoutX="50.0" layoutY="29.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="24.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="29.0" layoutX="17.0" layoutY="24.0" rotate="35.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="30.0" />
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="396.0" fitWidth="927.0" layoutY="-5.0" opacity="0.15" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/Screenshot_2017-12-27-16-02-59.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane layoutY="90.0" prefHeight="430.0" prefWidth="53.0">
+         <children>
+            <JFXButton ellipsisString="" layoutX="1.0" layoutY="55.0" prefHeight="44.0" prefWidth="41.0" text=".">
+               <graphic>
+                  <ImageView fitHeight="33.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8_Menu_64px_2.png" />
+                     </image>
+                  </ImageView>
+               </graphic></JFXButton>
+         </children>
+      </AnchorPane>
+      <JFXButton fx:id="examples" focusTraversable="false" layoutX="228.0" layoutY="55.0" onAction="#examples" prefHeight="25.0" prefWidth="216.0" text="EXAMPLES">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8_Classroom_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="quiz" focusTraversable="false" layoutX="632.0" layoutY="49.0" onAction="#quiz" prefHeight="25.0" prefWidth="216.0" text="CHAT ME">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8_WhatsApp_64px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <AnchorPane layoutX="22.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="29.0" layoutX="13.514694213867188" layoutY="51.51470184326172" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="30.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="29.0" layoutX="49.51469421386719" layoutY="51.51470184326172" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="30.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="29.0" layoutX="49.51469421386719" layoutY="15.514701843261719" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="30.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="38.0" layoutX="9.0" layoutY="7.0" rotate="35.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="38.0" />
+         </children>
+      </AnchorPane>
+      <Text layoutX="115.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="w" wrappingWidth="30.0000057220459">
+         <font>
+            <Font name="Book Antiqua" size="29.0" />
+         </font>
+      </Text>
+      <Text layoutX="134.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="J" wrappingWidth="30.0000057220459">
+         <font>
+            <Font name="Century Gothic" size="29.0" />
+         </font>
+      </Text>
+      <Text layoutX="151.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C" wrappingWidth="30.0000057220459">
+         <font>
+            <Font name="Century Gothic" size="29.0" />
+         </font>
+      </Text>
+      <Text layoutX="115.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The best place to learn Java" />
+      <StackPane fx:id="stick" layoutX="377.0" layoutY="218.0" prefHeight="146.0" prefWidth="292.0" />
+   </children>
+</AnchorPane>

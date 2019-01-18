@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="386.0" prefWidth="590.0" style="-fx-background-color: #f4f4f4;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="teachjava.LoadPageController">
+   <children>
+      <ImageView fitHeight="386.0" fitWidth="590.0" layoutY="-1.0" opacity="0.15" pickOnBounds="true">
+         <image>
+            <Image url="@../images/Screenshot_2017-12-27-16-02-59.png" />
+         </image>
+      </ImageView>
+      <JFXButton id="launch" fx:id="launchd" layoutX="217.0" layoutY="311.0" onAction="#loadApp" onKeyPressed="#lauchAppEnetr" prefHeight="29.0" prefWidth="144.0" ripplerFill="#f4f4f4" style="-fx-background-color: LIMEGREEN; -fx-background-insets: 4;" stylesheets="@css.css" text="LAUNCH APP" textFill="#f2eaea">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <Text fx:id="t1" layoutX="138.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="91.99999709241092">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="img1" fitHeight="22.0" fitWidth="26.0" layoutX="48.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icons8_Dashboard_24px.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lb1" alignment="CENTER" contentDisplay="CENTER" layoutX="70.0" layoutY="123.0" pickOnBounds="false" prefHeight="0.0" prefWidth="84.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="img2" fitHeight="30.0" fitWidth="30.0" layoutX="154.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icons8_Dashboard_24px.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lb2" alignment="CENTER" contentDisplay="CENTER" layoutX="184.0" layoutY="123.0" pickOnBounds="false" prefHeight="0.0" prefWidth="84.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="img3" fitHeight="32.0" fitWidth="36.0" layoutX="268.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icons8_Dashboard_24px.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lb3" alignment="CENTER" contentDisplay="CENTER" layoutX="300.0" layoutY="123.0" pickOnBounds="false" prefHeight="0.0" prefWidth="84.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="img4" fitHeight="42.0" fitWidth="44.0" layoutX="384.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icons8_Dashboard_24px.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lb4" alignment="CENTER" contentDisplay="CENTER" layoutX="426.0" layoutY="123.0" pickOnBounds="false" prefHeight="0.0" prefWidth="84.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="img5" fitHeight="48.0" fitWidth="52.0" layoutX="506.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icons8_Dashboard_24px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="73.0" layoutX="530.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Screenshot_2017-11-02-19-07-47.png" />
+         </image>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <Text fx:id="t1111" layoutX="510.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="55.245278775691986">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="t111" layoutX="384.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.13671875">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="t11" layoutX="258.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="84.00000587105751">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="t" layoutX="28.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="84.00000147521496">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
